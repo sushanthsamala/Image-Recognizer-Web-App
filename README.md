@@ -3,6 +3,7 @@ This is a image recognizer web application that runs on Kubernetes with 4 replic
 ## Prerequisites
 1. Install [Docker](https://docs.docker.com/get-docker/)
 2. Install [Kubernetes](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+3. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 3. Open Docker desktop and run docker daemon.
 4. Navigate to Kubernetes tab in Docker desktop and select 'Enable Kubernetes' option. 
 ## Steps to run

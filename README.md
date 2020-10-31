@@ -1,5 +1,5 @@
 # Image-recognizer-web-app
-This is a image recognizer web application that runs on Kubernetes with 4 replicas, you can upload your image to get a label and confidence.
+Image recognizer web application that runs on Kubernetes with 4 replicas, you can upload your image to get a label and confidence. The underlying model is an AlexNet trained on the famous Imagenet dataset.
 ## Prerequisites
 1. Install [Docker](https://docs.docker.com/get-docker/)
 2. Install [Kubernetes](https://kubernetes.io/docs/tasks/tools/install-kubectl/)

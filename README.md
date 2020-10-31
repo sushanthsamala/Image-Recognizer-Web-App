@@ -8,7 +8,7 @@ This is a image recognizer web application that runs on Kubernetes with 4 replic
 ## Steps to run
  ```
     git clone //https://github.com/sushanthsamala/image-recognizer-web-app
-    cd Image-Recognizer-Web-App
+    cd image-recognizer-web-app
     docker build -t image-recognizer .
     kubectl apply -f deployment.yaml
  ```

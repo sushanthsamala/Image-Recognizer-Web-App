@@ -1,0 +1,35 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: image-recognizer-service
+  namespace: default
+spec:
+  selector:
+    app: image-recognizer
+  ports:
+  - protocol: "TCP"
+    port: 5000
+    targetPort: 5000
+  type: LoadBalancer
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: image-recognizer
+spec:
+  selector:
+    matchLabels:
+      app: image-recognizer
+  replicas: 4
+  template:
+    metadata:
+      labels:
+        app: image-recognizer
+    spec:
+      containers:
+      - name: image-recognizer
+        image: image-recognizer:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5000

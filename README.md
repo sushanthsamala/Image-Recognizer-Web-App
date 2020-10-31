@@ -16,7 +16,7 @@ Image recognizer web application that runs on Kubernetes with 4 replicas, you ca
 ## Steps to get predictions
 1. Navigate to http://0.0.0.0:5000 in your browser
 2. Upload an image.
-3. The web page displays image label and the confidence with which the model has on the prediction.
+3. The web page displays image label and the confidence of the model on the prediction.
 4. Repeat step 2 until you are satisfied.
 ## Teardown steps
 ```

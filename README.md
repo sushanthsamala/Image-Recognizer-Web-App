@@ -22,3 +22,5 @@ This is a image recognizer web application that runs on Kubernetes with 4 replic
    kubectl delete -f deployment.yaml
    docker rmi -f $(docker images -a -q)
 ```
+## Public Docker image
+Instead of build the Dockerfile on your machine, you can directly use my publicly available docker image on docker hub: **sushanthsamala/image-recognizer**

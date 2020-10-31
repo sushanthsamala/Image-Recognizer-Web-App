@@ -1,4 +1,4 @@
-# Image-Recognizer-Web-App
+# Image-recognizer-web-app
 This is a image recognizer web application that runs on Kubernetes with 4 replicas, you can upload your image to get a label and confidence.
 ## Prerequisites
 1. Install [Docker](https://docs.docker.com/get-docker/)
@@ -7,7 +7,7 @@ This is a image recognizer web application that runs on Kubernetes with 4 replic
 4. Navigate to Kubernetes tab in Docker desktop and select 'Enable Kubernetes' option. 
 ## Steps to run
  ```
-    git clone //https://github.com/sushanthsamala/Image-Recognizer-Web-App
+    git clone //https://github.com/sushanthsamala/image-recognizer-web-app
     cd Image-Recognizer-Web-App
     docker build -t image-recognizer .
     kubectl apply -f deployment.yaml
